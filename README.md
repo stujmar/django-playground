@@ -28,3 +28,8 @@ pip freeze --local > requirements.txt
 ```
 
 > you can use 'deactivate' in the bash to exit your virtual environment
+
+### Created a new project ``regression`` via
+```bash
+django-admin startproject regression
+```

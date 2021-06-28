@@ -12,7 +12,7 @@ which python
 ```
 
 ## Installing some packages local to the env to test
-``bash
+```bash
 pip list
 
 pip install numpy
@@ -20,4 +20,9 @@ pip install pytz
 pip install psutil
 
 pip list
+```
+
+### Exporting requirements documentation
+```bash
+pip freeze --local > requirements.txt
 ```

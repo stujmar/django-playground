@@ -8,4 +8,16 @@ cd !$ ?
 pip install virtualenv
 virtualenv regression_env
 source regression_env/Scripts/activate
+which python
+```
+
+## Installing some packages local to the env to test
+``bash
+pip list
+
+pip install numpy
+pip install pytz
+pip install psutil
+
+pip list
 ```

@@ -26,3 +26,5 @@ pip list
 ```bash
 pip freeze --local > requirements.txt
 ```
+
+> you can use 'deactivate' in the bash to exit your virtual environment

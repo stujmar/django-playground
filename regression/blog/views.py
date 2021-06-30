@@ -3,16 +3,16 @@ from django.http import HttpResponse
 
 posts = [
     {
-        'auther': 'Stuart Marsh',
+        'author': 'Stuart Marsh',
         'title': 'blog post one',
         'content': 'First post content',
-        'date_posted': 'Auguest 23, 2018'
+        'date_posted': 'August 10, 2020'
     },
     {
-        'auther': 'Ally Brisbin',
+        'author': 'Ally Brisbin',
         'title': 'blog post two',
         'content': 'Second post content',
-        'date_posted': 'Auguest 23, 2018'
+        'date_posted': 'August 24, 2019'
     },
 ]
 

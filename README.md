@@ -33,3 +33,8 @@ pip freeze --local > requirements.txt
 ```bash
 django-admin startproject regression
 ```
+
+### Booting up app
+```bash
+python regression/manage.py runserver
+```

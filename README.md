@@ -47,3 +47,14 @@ python regression/manage.py makemigrations
 python regression/manage.py migrate
 python regression/manage.py createsuperuser
 ```
+
+### Checking what SQL will be run by migration
+```bash
+python regression/manage.py sqlmigrate blog 0001
+```
+
+### Run to migrate changes to schema
+```bash
+python regression/manage.py makemigrations
+python regression/manage.py migrate
+```

@@ -66,4 +66,8 @@ from blog.models import Post
 from django.contrib.auth.models import User
 User.objects.all()
 User.objects.filter(username='stujmar')
+
+user = User.objects.filter(username='stujmar').first()
+post_1 = Post(title='Blog Title One', content='First Post Content', author=user)
+post_1.save()
 ```

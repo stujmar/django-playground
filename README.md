@@ -40,3 +40,10 @@ django-admin startproject regression
 ```bash
 python regression/manage.py runserver
 ```
+
+### Creating a database and super user
+```bash
+python regression/manage.py migrate
+python regression/manage.py makemigrations
+python regression/manage.py createsuperuser
+```

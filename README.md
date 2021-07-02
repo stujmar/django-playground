@@ -1,6 +1,8 @@
 # regression-cluster-be
 The back end for a regression clustering test I am working on.
 
+> Quickstart just type ./initscript
+
 cd !$ ? 
 
 ## How I set up the virtual env

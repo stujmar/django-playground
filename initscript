@@ -1,0 +1,2 @@
+source regression_env/Scripts/activate
+python regression/manage.py runserver

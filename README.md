@@ -58,3 +58,12 @@ python regression/manage.py sqlmigrate blog 0001
 python regression/manage.py makemigrations
 python regression/manage.py migrate
 ```
+
+### Opening shell to work with db model
+```bash
+python regression/manage.py shell # open shell
+from blog.models import Post
+from django.contrib.auth.models import User
+User.objects.all()
+User.objects.filter(username='stujmar')
+```

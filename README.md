@@ -76,3 +76,13 @@ post_2 = Post(title='Pickle Pepper', content='Pickle Content', author=user)
 post_1.save()
 post_2.save()
 ```
+
+### Date Formatting
+
+docs 
+> https://docs.djangoproject.com/en/2.0/ref/templates/builtins/#date
+
+example
+```bash
+<small class="text-muted">{{ post.date_posted|date:"F jS Y" }}</small>
+```

@@ -1,5 +1,5 @@
-# regression-cluster-be
-The back end for a regression clustering test I am working on.
+# Django Playground
+Just a cool place to hangout and learn django.
 
 > Quickstart just type ./initscript
 

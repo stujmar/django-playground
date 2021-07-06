@@ -16,7 +16,7 @@ def register(request):
     return render(request, 'users/register.html', {'form': form})
 
 def profile(request):
-    return render(request, 'user/profile.html')
+    return render(request, 'users/profile.html')
 
 # Types of flash messages you can import
     # messages.debug

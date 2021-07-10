@@ -15,6 +15,7 @@ class PostListView(ListView):
     ordering = ['-date_posted']
 
 class DetailListView(DetailView):
+    model = Post
 
 def about(request):
     return render(request, 'blog/about.html', {'title': 'About'})

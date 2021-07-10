@@ -1,6 +1,6 @@
 # from django.contrib import admin
 from django.urls import path
-from .views import PostListView
+from .views import PostListView, PostDetailView
 from . import views
 
 urlpatterns = [
